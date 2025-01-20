@@ -1,71 +1,79 @@
-# Welcome to your GPT Engineer project
+# Cyrus Terminal - Solana Pre-Bond Listings Platform
 
-## Project info
+A decentralized platform for discovering and participating in token pre-bond listings on the Solana blockchain. This platform enables early access to promising token projects while maintaining stability through a structured pre-launch phase.
 
-**URL**: https://run.gptengineer.app/projects/c266ceae-eac0-4104-a2f0-bf614d192f28/improve
+## 🚀 Features
 
-## How can I edit this code?
+- **Pre-Bond Listings**: Browse and participate in token pre-launches before they hit the market
+- **Secure Deposits**: Direct SOL deposits to project funding wallets on Solana mainnet
+- **Real-time Progress**: Track vault status and token launch progress
+- **Community Engagement**: Vote and interact with project creators
+- **Creator Dashboard**: Manage listings and monitor deposit progress
+- **Integrated Chat**: Real-time communication between community members and project creators
 
-There are several ways of editing your application.
+## 💻 Technology Stack
 
-**Use GPT Engineer**
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS + Shadcn UI
+- **Blockchain**: Solana Web3.js
+- **Wallet**: Solana Wallet Adapter
+- **Backend**: Supabase (Database, Auth, Storage)
+- **State Management**: TanStack Query (React Query)
 
-Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/c266ceae-eac0-4104-a2f0-bf614d192f28/improve) and start prompting.
+## 🔧 Key Components
 
-Changes made via gptengineer.app will be committed automatically to this repo.
+- Secure wallet integration with multiple adapter support
+- Real-time deposit tracking and vault status updates
+- Automated token launch triggers based on funding thresholds
+- Community voting and social engagement features
+- Comprehensive project creator tools and analytics
 
-**Use your preferred IDE**
+## 🏗️ Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the GPT Engineer UI.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/         # Reusable UI components
+├── hooks/             # Custom React hooks
+├── pages/             # Main application pages
+├── services/          # API and blockchain services
+└── utils/             # Helper functions and utilities
 ```
 
-**Edit a file directly in GitHub**
+## 🔐 Security Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Direct SOL transfers to project funding wallets
+- Real-time balance verification
+- Secure wallet connections
+- Database-level security policies
+- Input validation and sanitization
 
-**Use GitHub Codespaces**
+## 🌐 Network Configuration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Mainnet Beta support
+- Reliable RPC endpoint configuration
+- Fallback endpoints for high availability
+- Transaction confirmation handling
 
-## What technologies are used for this project?
+## 📈 Future Roadmap
 
-This project is built with .
+- Enhanced analytics dashboard
+- Multi-token support
+- Advanced voting mechanisms
+- Automated token distribution
+- Cross-chain integration possibilities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributing
 
-## How can I deploy this project?
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-All GPT Engineer projects can be deployed directly via the GPT Engineer app.
+For further details visit https://x.com/niotheniner
 
-Simply visit your project at [GPT Engineer](https://gptengineer.app/projects/c266ceae-eac0-4104-a2f0-bf614d192f28/improve) and click on Share -> Publish.
 
-## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.gptengineer.app/tips-tricks/custom-domain/)
+
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ⚠️ Disclaimer
+
+This platform is for informational purposes only. Users should conduct their own research before participating in any token pre-launches. Cryptocurrency investments carry inherent risks.
