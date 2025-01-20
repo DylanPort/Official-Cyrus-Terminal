@@ -1,0 +1,46 @@
+project_id = "broewnzkfwaggbzsogvv"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+api_url = "http://localhost"
+
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+port = 54325
+
+[auth]
+enabled = true
+port = 54326
+
+[analytics]
+enabled = true
+port = 54327
+
+[realtime]
+enabled = true
+port = 54328
+
+[edge_functions]
+[edge_functions.ai-chat]
+verify_jwt = false
+[edge_functions.python-token-analysis]
+verify_jwt = false
+[edge_functions.token-analysis]
+verify_jwt = false
